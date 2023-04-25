@@ -10,7 +10,7 @@
     <groupId>fr.paris.lutece.plugins</groupId>
     <artifactId>plugin-wiki</artifactId>
     <packaging>lutece-plugin</packaging>
-    <version>3.0.2-SNAPSHOT</version>
+    <version>3.0.3-SNAPSHOT</version>
     <name>Lutece wiki plugin</name>
 
     <repositories>
@@ -65,6 +65,19 @@
             <artifactId>json-lib</artifactId>
             <version>2.4</version>
             <classifier>jdk15</classifier>
+        </dependency>
+
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>plugin-mylutece</artifactId>
+            <version>4.0.5</version>
+            <type>lutece-plugin</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.paris.lutece.plugins</groupId>
+            <artifactId>module-mylutece-database</artifactId>
+            <version>6.0.3</version>
+            <type>lutece-plugin</type>
         </dependency>
     </dependencies>
 

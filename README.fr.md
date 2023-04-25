@@ -1,3 +1,7 @@
+2023-04-25 18:16:21 ERROR [Lutece-MainThread] lutece.error - Critical AppException, root cause: ConnectException: Connexion refusÃ©e (Connection refused)
+fr.paris.lutece.portal.service.util.AppException: SQL Error executing command : java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+at fr.paris.lutece.util.pool.service.ConnectionPool.initPool(ConnectionPool.java:134) ~[lutece-core-7.0.9-SNAPSHOT.jar:?]
+
 ![](https://dev.lutece.paris.fr/jenkins/buildStatus/icon?job=collab-plugin-wiki-deploy)
 # Plugin wiki
 
@@ -8,19 +12,19 @@
 
  
 * Utilise la syntaxe du standard Wikicreole
-* Fournit un éditeur Wiki très simple et efficace avec un panneau d'aide amovible
-* Peut être facilement personnalisé par des macros pour ajouter de nouvelles fonctionnalités de rendu
+* Fournit un ï¿½diteur Wiki trï¿½s simple et efficace avec un panneau d'aide amovible
+* Peut ï¿½tre facilement personnalisï¿½ par des macros pour ajouter de nouvelles fonctionnalitï¿½s de rendu
 
 
- **Entièrement intégré à la plate-forme Lutece :** 
+ **Entiï¿½rement intï¿½grï¿½ ï¿½ la plate-forme Lutece :** 
 
 
  
-* Utilise l'authentification et les rôles MyLutece
+* Utilise l'authentification et les rï¿½les MyLutece
 * Compatible avec le plugin Extend et tous ses modules (commentaire, notation, hits, opengraph...)
 * Supporte les avatars et les pseudos de Lutece
-* Utilise le thème graphique du site. Il changera de la même façon que tout le site lorsque le thème sera modifié
-* Les skins de rendu de code peuvent être gérés dans "Propriétés du site"
+* Utilise le thï¿½me graphique du site. Il changera de la mï¿½me faï¿½on que tout le site lorsque le thï¿½me sera modifiï¿½
+* Les skins de rendu de code peuvent ï¿½tre gï¿½rï¿½s dans "Propriï¿½tï¿½s du site"
 
 
 
